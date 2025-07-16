@@ -12,3 +12,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 // Import Spring annotations used to define RESTful web controllers and route requests
 import org.springframework.web.bind.annotation.*;
+
+// Import List class to return a list of PlantCatalog objects
+import java.util.List;
