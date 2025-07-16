@@ -15,3 +15,6 @@ import org.springframework.web.bind.annotation.*;
 
 // Import List class to return a list of PlantCatalog objects
 import java.util.List;
+
+// Marks this class as a REST controller — it handles HTTP requests and returns data (usually JSON)
+@RestController
