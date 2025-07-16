@@ -43,3 +43,7 @@ public class GardenPlantController {
     public GardenPlant addPlantToGarden(@RequestBody GardenPlant gardenPlant) {
         return gardenPlantRepository.save(gardenPlant); // save the new plant in the DB
     }
+
+    // Handles PUT requests to /api/garden/{id} — updates the plant with the given ID
+    @PutMapping("/{id}")
+    public GardenPlant updateGardenPlant(@PathVariable Long id, @RequestBody GardenPlant updatedPlant) {
