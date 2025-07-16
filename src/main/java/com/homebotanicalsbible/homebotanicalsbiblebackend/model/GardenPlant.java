@@ -12,3 +12,6 @@ import java.time.LocalDate;
 
 // Lombok annotation to generate getter methods for all fields
 @Getter
+
+// Lombok annotation to generate setter methods for all fields
+@Setter
