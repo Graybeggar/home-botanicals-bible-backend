@@ -24,3 +24,6 @@ import java.util.List;
 
 // Allows this controller to accept cross-origin requests from the React frontend (running at localhost:5173)
 @CrossOrigin(origins = "http://localhost:5173")
+
+// This is the controller class for handling HTTP requests related to GardenPlant entities
+public class GardenPlantController {
