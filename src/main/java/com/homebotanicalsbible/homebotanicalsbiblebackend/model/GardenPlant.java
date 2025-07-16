@@ -21,3 +21,6 @@ import java.time.LocalDate;
 
 // Lombok annotation to generate a constructor with all fields as parameters
 @AllArgsConstructor
+
+// This is the entity class representing a plant in the user's personal garden
+public class GardenPlant {
