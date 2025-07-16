@@ -21,3 +21,6 @@ import java.util.List;
 
 // Sets the base path for all request mappings in this controller to /api/plants
 @RequestMapping("/api/plants")
+
+// Allows this endpoint to be called from a different origin
+@CrossOrigin(origins = "http://localhost:5173")
