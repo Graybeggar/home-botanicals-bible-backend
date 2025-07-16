@@ -54,5 +54,6 @@ public class GardenPlantController {
                     plant.setLastWatered(updatedPlant.getLastWatered());
                     plant.setNotes(updatedPlant.getNotes());
                     plant.setNickname(updatedPlant.getNickname());
-                }
+                    // Save the updated plant back to the DB
+                    return gardenPlantRepository.save(plant);
     }
