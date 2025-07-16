@@ -24,3 +24,7 @@ import java.time.LocalDate;
 
 // This is the entity class representing a plant in the user's personal garden
 public class GardenPlant {
+
+    // Marks this field as the primary key for the table
+    @Id
+}
