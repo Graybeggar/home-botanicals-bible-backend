@@ -12,3 +12,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 // Annotations for building RESTful APIs
 import org.springframework.web.bind.annotation.*;
+
+// Import for using lists as return types
+import java.util.List;
+
+// Marks this class as a REST controller — all methods return JSON responses by default
+@RestController
