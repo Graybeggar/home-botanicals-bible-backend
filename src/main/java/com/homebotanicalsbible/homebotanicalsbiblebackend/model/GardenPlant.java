@@ -48,3 +48,10 @@ public class GardenPlant {
     @JoinColumn(name = "plant_id")
     private PlantCatalog plant;
 }
+
+//Notes
+//@Entity - Maps this class to a garden_plant table (table name is inferred unless specified)
+//Primary Key (@Id)	- Uniquely identifies each garden plant
+//nickname, lastWatered, notes - Fields stored in the database
+//@ManyToOne with @JoinColumn - Connects this garden entry to a plant in the main PlantCatalog (foreign key plant_id)
+//Lombok Annotations - Eliminate need to manually write constructors, getters, and setters
