@@ -34,4 +34,7 @@ public class GardenPlant {
 
     // A user-defined nickname for the plant ("Spikey" for a cactus)
     private String nickname;
+
+    // The date the plant was last watered
+    private LocalDate lastWatered;
 }
