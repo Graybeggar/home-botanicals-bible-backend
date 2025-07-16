@@ -37,4 +37,7 @@ public class GardenPlant {
 
     // The date the plant was last watered
     private LocalDate lastWatered;
+
+    // Any custom notes the user wants to save about the plant
+    private String notes;
 }
