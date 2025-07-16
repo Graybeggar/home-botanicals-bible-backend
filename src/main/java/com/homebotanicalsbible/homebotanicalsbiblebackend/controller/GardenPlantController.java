@@ -18,3 +18,6 @@ import java.util.List;
 
 // Marks this class as a REST controller — all methods return JSON responses by default
 @RestController
+
+// Maps the base URL path "/api/garden" to this controller
+@RequestMapping("/api/garden")
