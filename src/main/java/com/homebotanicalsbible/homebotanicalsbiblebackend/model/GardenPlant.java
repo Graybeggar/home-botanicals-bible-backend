@@ -40,4 +40,7 @@ public class GardenPlant {
 
     // Any custom notes the user wants to save about the plant
     private String notes;
+
+    // Defines a many-to-one relationship: many GardenPlant entries can relate to one PlantCatalog entry
+    @ManyToOne
 }
