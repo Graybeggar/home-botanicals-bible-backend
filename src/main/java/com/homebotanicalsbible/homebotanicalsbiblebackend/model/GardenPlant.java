@@ -31,4 +31,7 @@ public class GardenPlant {
     // Auto-generates the ID using the database's identity strategy
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    // A user-defined nickname for the plant ("Spikey" for a cactus)
+    private String nickname;
 }
