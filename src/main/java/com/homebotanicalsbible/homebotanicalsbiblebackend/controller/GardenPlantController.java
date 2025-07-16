@@ -9,3 +9,6 @@ import com.homebotanicalsbible.homebotanicalsbiblebackend.repository.GardenPlant
 
 // Spring annotation that allows dependency injection (@Autowired) and other core features
 import org.springframework.beans.factory.annotation.Autowired;
+
+// Annotations for building RESTful APIs
+import org.springframework.web.bind.annotation.*;
