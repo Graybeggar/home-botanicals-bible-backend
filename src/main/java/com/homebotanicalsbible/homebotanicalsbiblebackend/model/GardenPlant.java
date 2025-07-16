@@ -9,3 +9,6 @@ import java.time.LocalDate;
 
 // Marks this class as a JPA entity, meaning it maps to a database table
 @Entity
+
+// Lombok annotation to generate getter methods for all fields
+@Getter
