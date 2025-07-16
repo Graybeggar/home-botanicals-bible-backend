@@ -47,3 +47,7 @@ public class GardenPlantController {
     // Handles PUT requests to /api/garden/{id} — updates the plant with the given ID
     @PutMapping("/{id}")
     public GardenPlant updateGardenPlant(@PathVariable Long id, @RequestBody GardenPlant updatedPlant) {
+        // Try to find the plant by ID in the DB
+        return gardenPlantRepository.findById(id)
+                .map(plant -> {
+    }
