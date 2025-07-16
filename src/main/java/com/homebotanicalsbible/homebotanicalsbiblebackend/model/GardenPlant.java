@@ -43,4 +43,8 @@ public class GardenPlant {
 
     // Defines a many-to-one relationship: many GardenPlant entries can relate to one PlantCatalog entry
     @ManyToOne
+
+    // Specifies the foreign key column in the database that links to PlantCatalog
+    @JoinColumn(name = "plant_id")
+    private PlantCatalog plant;
 }
