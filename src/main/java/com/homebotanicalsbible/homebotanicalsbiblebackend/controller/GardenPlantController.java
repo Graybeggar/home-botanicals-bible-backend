@@ -21,3 +21,6 @@ import java.util.List;
 
 // Maps the base URL path "/api/garden" to this controller
 @RequestMapping("/api/garden")
+
+// Allows this controller to accept cross-origin requests from the React frontend (running at localhost:5173)
+@CrossOrigin(origins = "http://localhost:5173")
