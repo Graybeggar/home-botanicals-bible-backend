@@ -67,3 +67,10 @@ public class GardenPlantController {
         gardenPlantRepository.deleteById(id); // delete the plant by ID
     }
 }
+
+//Notes
+//Supports full CRUD operations
+//Create a new garden plant (POST)
+//Read all garden plants (GET)
+//Update an existing plant by ID (PUT)
+//Delete a plant by ID (DELETE)
