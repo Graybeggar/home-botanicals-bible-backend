@@ -60,3 +60,10 @@ public class GardenPlantController {
                 // If not found, throw an exception
                 .orElseThrow(() -> new RuntimeException("Plant not found"));
     }
+
+    // Handles DELETE requests to /api/garden/{id} — deletes the plant with the given ID
+    @DeleteMapping("/{id}")
+    public void deleteGardenPlant(@PathVariable Long id) {
+        gardenPlantRepository.deleteById(id); // delete the plant by ID
+    }
+}
