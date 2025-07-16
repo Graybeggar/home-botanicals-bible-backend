@@ -31,4 +31,9 @@ public class GardenPlantController {
     // Injects the GardenPlantRepository so it can be used to access the database
     @Autowired
     private GardenPlantRepository gardenPlantRepository;
+
+    // Handles GET requests to /api/garden — returns a list of all plants saved in the garden
+    @GetMapping
+    public List<GardenPlant> getAllGardenPlants() {
+        return gardenPlantRepository.findAll(); // fetch all garden plants from the DB
 }
