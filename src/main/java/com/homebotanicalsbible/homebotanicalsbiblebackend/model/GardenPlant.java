@@ -27,4 +27,8 @@ public class GardenPlant {
 
     // Marks this field as the primary key for the table
     @Id
+
+    // Auto-generates the ID using the database's identity strategy
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 }
