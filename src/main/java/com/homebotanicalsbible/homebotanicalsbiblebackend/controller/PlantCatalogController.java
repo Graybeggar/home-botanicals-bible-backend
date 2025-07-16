@@ -35,4 +35,7 @@ public class PlantCatalogController {
     // Maps HTTP GET requests to /api/plants to this method
     @GetMapping
     public List<PlantCatalog> getAllPlants() {
+        // Uses the repository to fetch all records from the plant_catalog table in the database
+        return plantCatalogRepository.findAll();
+    }
 }
