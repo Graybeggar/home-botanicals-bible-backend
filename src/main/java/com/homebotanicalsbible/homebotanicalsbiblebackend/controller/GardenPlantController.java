@@ -56,4 +56,7 @@ public class GardenPlantController {
                     plant.setNickname(updatedPlant.getNickname());
                     // Save the updated plant back to the DB
                     return gardenPlantRepository.save(plant);
+                })
+                // If not found, throw an exception
+                .orElseThrow(() -> new RuntimeException("Plant not found"));
     }
