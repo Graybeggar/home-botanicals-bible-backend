@@ -6,3 +6,6 @@ import lombok.*;
 
 // Import Java's LocalDate class for date handling
 import java.time.LocalDate;
+
+// Marks this class as a JPA entity, meaning it maps to a database table
+@Entity
