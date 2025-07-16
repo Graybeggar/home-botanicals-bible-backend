@@ -18,3 +18,6 @@ import java.time.LocalDate;
 
 // Lombok annotation to generate a no-argument constructor (required by JPA)
 @NoArgsConstructor
+
+// Lombok annotation to generate a constructor with all fields as parameters
+@AllArgsConstructor
