@@ -50,4 +50,9 @@ public class GardenPlantController {
         // Try to find the plant by ID in the DB
         return gardenPlantRepository.findById(id)
                 .map(plant -> {
+                    // If found, update its properties with the new values from the request body
+                    plant.setLastWatered(updatedPlant.getLastWatered());
+                    plant.setNotes(updatedPlant.getNotes());
+                    plant.setNickname(updatedPlant.getNickname());
+                }
     }
