@@ -39,3 +39,10 @@ public class PlantCatalogController {
         return plantCatalogRepository.findAll();
     }
 }
+
+//Notes
+//Spring Boot REST controller
+//serves the /api/plants endpoint
+//allows CORS requests from your React frontend
+//defines one route: GET /api/plants to fetch all plants from the database
+//uses JPA Repository for easy data access
