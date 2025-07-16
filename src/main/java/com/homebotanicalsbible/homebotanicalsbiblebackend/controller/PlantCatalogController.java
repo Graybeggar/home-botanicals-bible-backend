@@ -24,3 +24,6 @@ import java.util.List;
 
 // Allows this endpoint to be called from a different origin
 @CrossOrigin(origins = "http://localhost:5173")
+
+// The main controller class for handling requests related to the plant catalog
+public class PlantCatalogController {
