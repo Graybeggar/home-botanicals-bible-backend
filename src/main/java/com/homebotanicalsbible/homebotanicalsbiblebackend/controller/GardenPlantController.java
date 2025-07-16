@@ -27,3 +27,8 @@ import java.util.List;
 
 // This is the controller class for handling HTTP requests related to GardenPlant entities
 public class GardenPlantController {
+
+    // Injects the GardenPlantRepository so it can be used to access the database
+    @Autowired
+    private GardenPlantRepository gardenPlantRepository;
+}
