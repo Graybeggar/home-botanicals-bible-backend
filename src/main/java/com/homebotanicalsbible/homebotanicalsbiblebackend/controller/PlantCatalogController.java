@@ -31,4 +31,8 @@ public class PlantCatalogController {
     // Spring will automatically inject an instance of PlantCatalogRepository here
     @Autowired
     private PlantCatalogRepository plantCatalogRepository;
+
+    // Maps HTTP GET requests to /api/plants to this method
+    @GetMapping
+    public List<PlantCatalog> getAllPlants() {
 }
