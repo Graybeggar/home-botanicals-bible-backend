@@ -3,3 +3,6 @@ import jakarta.persistence.*;
 
 // Import Lombok annotations to automatically generate boilerplate code (getters, setters, constructors)
 import lombok.*;
+
+// Import Java's LocalDate class for date handling
+import java.time.LocalDate;
