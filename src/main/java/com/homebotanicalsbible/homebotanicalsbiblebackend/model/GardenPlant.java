@@ -15,3 +15,6 @@ import java.time.LocalDate;
 
 // Lombok annotation to generate setter methods for all fields
 @Setter
+
+// Lombok annotation to generate a no-argument constructor (required by JPA)
+@NoArgsConstructor
