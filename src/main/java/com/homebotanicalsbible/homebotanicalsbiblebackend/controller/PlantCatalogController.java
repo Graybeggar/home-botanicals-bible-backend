@@ -27,3 +27,8 @@ import java.util.List;
 
 // The main controller class for handling requests related to the plant catalog
 public class PlantCatalogController {
+
+    // Spring will automatically inject an instance of PlantCatalogRepository here
+    @Autowired
+    private PlantCatalogRepository plantCatalogRepository;
+}
