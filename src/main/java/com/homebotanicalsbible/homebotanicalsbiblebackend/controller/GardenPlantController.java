@@ -36,7 +36,7 @@ public class GardenPlantController {
     @GetMapping
     public List<GardenPlant> getAllGardenPlants() {
         return gardenPlantRepository.findAll(); // fetch all garden plants from the DB
-}
+    }
 
     // Handles POST requests to /api/garden — adds a new plant to the garden
     @PostMapping
