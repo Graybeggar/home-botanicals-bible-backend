@@ -43,6 +43,6 @@ public class PlantCatalogController {
 //Notes
 //Spring Boot REST controller
 //serves the /api/plants endpoint
-//allows CORS requests from your React frontend
+//allows CORS requests from React frontend
 //defines one route: GET /api/plants to fetch all plants from the database
 //uses JPA Repository for easy data access
