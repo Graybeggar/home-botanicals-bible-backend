@@ -1,3 +1,6 @@
+// Package declaration — this file belongs to the "model" package of the backend
+package com.homebotanicalsbible.homebotanicalsbiblebackend.model;
+
 // Import JPA annotations like @Entity, @Id, @GeneratedValue, @ManyToOne, @JoinColumn, etc.
 import jakarta.persistence.*;
 
