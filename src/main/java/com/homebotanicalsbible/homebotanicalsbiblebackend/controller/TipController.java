@@ -1,3 +1,5 @@
+package com.homebotanicalsbible.homebotanicalsbiblebackend.controller;
+
 import org.springframework.web.bind.annotation.CrossOrigin; // Import annotation to allow cross-origin requests
 import org.springframework.web.bind.annotation.GetMapping; // Import annotation for GET endpoints
 import org.springframework.web.bind.annotation.RestController; // Import annotation for REST controller
@@ -42,6 +44,7 @@ public class TipController { // Declares the TipController class
         return tips.get(index); // Returns the tip for today
     }
 }
+
 // End of TipController class
 
 // Notes:
