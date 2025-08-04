@@ -118,7 +118,7 @@ Option to track watering frequency with notifications
 
 ---
 
-## Get today's gardening tip:
+Get today's gardening tip:
 GET /tip-of-the-day
 
 Add new plants (JSON body):
