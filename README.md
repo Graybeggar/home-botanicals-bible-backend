@@ -65,6 +65,8 @@ GET /api/plants
 - [Getting Started with Spring Boot - Baeldung](https://www.baeldung.com/spring-boot-start)
 - [Spring Boot First Application Tutorial](https://docs.spring.io/spring-boot/tutorial/first-application/index.html#getting-started.first-application)
 
+Link to ER Diagram: https://dbdiagram.io/d/68755881f413ba3508d340be
+
 Get today's gardening tip:
 GET /tip-of-the-day
 
