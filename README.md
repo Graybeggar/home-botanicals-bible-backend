@@ -21,7 +21,9 @@ Maven,
 and MySQL database.
 
 Installation
+
 Clone the repo and run:
+
 git clone https://github.com/yourusername/homebotanicalsbible-backend.git
 cd homebotanicalsbible-backend
 mvn clean install
