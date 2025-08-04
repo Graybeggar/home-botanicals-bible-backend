@@ -78,6 +78,37 @@ Link to Wireframe: https://lucid.app/lucidchart/c7417e79-d8f3-4be6-b534-6b647baa
 
 Link to ER Diagram: https://dbdiagram.io/d/68755881f413ba3508d340be
 
+🌟 Future Features
+✅ User Authentication & Roles
+
+Register, login, password reset
+
+Admin role for managing the plant catalog
+
+✅ Push Notifications & Reminders
+
+Remind users to water or fertilize their plants
+
+✅ Plant Recommendations
+
+Suggest plants based on light conditions or skill level
+
+✅ Weather Integration
+
+Suggest plant care tips based on local weather data
+
+✅ Community Tips & Comments
+
+Users can submit and vote on care tips
+
+✅ Favorite Plants
+
+Let users favorite or bookmark plants
+
+✅ Better Watering Schedule
+
+Option to track watering frequency with notifications
+
 Get today's gardening tip:
 GET /tip-of-the-day
 
@@ -86,11 +117,11 @@ Add new plants (JSON body):
 [
   {
     "name": "Aloe Vera",
-    "description": "Succulent known for medicinal uses.",
-    "light": "Bright",
+    "description": "A succulent plant species of the genus Aloe.",
+    "light": "Bright indirect",
     "size": "Medium",
     "petSafe": true,
-    "wateringIntervalDays": 3,
-    "careInstructions": "Water every 3 days, indirect sunlight."
+    "imageUrl": "https://example.com/aloe.jpg",
+    "careInstructions": "Water every 2 weeks.",
+    "wateringIntervalDays": 14
   }
-]
