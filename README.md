@@ -63,3 +63,22 @@ Add new plants (JSON body):
     "careInstructions": "Water every 3 days, indirect sunlight."
   }
 ]
+
+---
+## Useful Resources
+
+- [Building a RESTful Web Service - Spring Guide](https://spring.io/guides/gs/rest-service/)
+- [Spring @RequestMapping Guide - Baeldung](https://www.baeldung.com/spring-requestmapping)
+- [Spring Boot REST API Tutorial with MySQL, JPA & Hibernate - Callicoder](https://www.callicoder.com/spring-boot-rest-api-tutorial-with-mysql-jpa-hibernate/)
+- [Handling CORS in Spring - Baeldung](https://www.baeldung.com/spring-cors)
+- [Constructor Injection in Spring - Baeldung](https://www.baeldung.com/constructor-injection-in-spring)
+- [Spring @RequestMapping POST Examples - Baeldung](https://www.baeldung.com/spring-requestmapping#post)
+- [Spring Boot CRUD with Thymeleaf - Baeldung](https://www.baeldung.com/spring-boot-crud-thymeleaf)
+- [Introduction to Java 8 Date and Time API - Baeldung](https://www.baeldung.com/java-8-date-time-intro#localdate)
+- [Accessing Data with JPA - Spring Guide](https://spring.io/guides/gs/accessing-data-jpa)
+- [Project Lombok: @Getter and @Setter](https://projectlombok.org/features/GetterSetter)
+- [Spring Boot JPA Hibernate PostgreSQL RESTful CRUD API Example - Callicoder](https://www.callicoder.com/spring-boot-jpa-hibernate-postgresql-restful-crud-api-example/)
+- [Java Persistence API: EntityManager - Oracle Docs](https://docs.oracle.com/javaee/7/api/javax/persistence/EntityManager.html)
+- [Spring Data JPA Query Methods - Baeldung](https://www.baeldung.com/spring-data-jpa-query)
+- [Getting Started with Spring Boot - Baeldung](https://www.baeldung.com/spring-boot-start)
+- [Spring Boot First Application Tutorial](https://docs.spring.io/spring-boot/tutorial/first-application/index.html#getting-started.first-application)
