@@ -16,9 +16,9 @@ The backend uses Spring Boot for rapid development and Spring Data JPA for conve
 
 Prerequisites
 
-Java 17+ installed
-Maven
-MySQL database
+Java 17+ installed,
+Maven,
+and MySQL database.
 
 Installation
 Clone the repo and run:
