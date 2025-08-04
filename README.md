@@ -59,5 +59,5 @@ Add new plants (JSON body):
   }
 ]
 
-Get today's gardening tip:
-GET /tip-of-the-day
+**Get today's gardening tip:**  
+`GET /tip-of-the-day`
