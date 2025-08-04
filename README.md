@@ -45,6 +45,9 @@ Configure your database connection in src/main/resources/application.properties 
 Fetch all plants:
 GET /api/plants
 
+Get today's gardening tip:
+GET /tip-of-the-day
+
 Add new plants (JSON body):
 ```json
 [
@@ -58,6 +61,3 @@ Add new plants (JSON body):
     "careInstructions": "Water every 3 days, indirect sunlight."
   }
 ]
-
-**Get today's gardening tip:**  
-`GET /tip-of-the-day`
