@@ -39,6 +39,7 @@ public class TipController { // Declares the TipController class
     public Tip getTipOfTheDay() { // Returns a single Tip object for the current day
         List<Tip> tips = getTips(); // Gets the list of tips
         if (tips.isEmpty()) return null; // Returns null if no tips are available
+
         int dayOfYear = java.time.LocalDate.now().getDayOfYear(); // Gets the current day of the year
         int index = dayOfYear % tips.size(); // Calculates index based on day of year
         return tips.get(index); // Returns the tip for today
@@ -53,5 +54,5 @@ public class TipController { // Declares the TipController class
 // - Hardcoded tips in getTips(): Chosen for simplicity and demonstration; avoids database setup for static content.
 // - @GetMapping("/tips"): Provides a clear, RESTful endpoint for retrieving all tips.
 // - @GetMapping("/tip-of-the-day"): Offers a daily tip feature, improving user engagement.
-// - Tip-of-the-day logic: Uses day-of-year modulo tip count for simple, repeatable daily rotation.
+// - Selects today’s tip by dividing the day of the year by the total number of tips and using the remainder to pick a tip, enabling a daily rotating tip.
 // - Returning null if no tips: Quick fallback for empty data.
