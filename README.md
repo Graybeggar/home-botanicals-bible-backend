@@ -110,6 +110,8 @@ Let users favorite or bookmark plants
 
 Option to track watering frequency with notifications
 
+
+
 Get today's gardening tip:
 GET /tip-of-the-day
 
