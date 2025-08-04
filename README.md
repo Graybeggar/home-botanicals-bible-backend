@@ -13,6 +13,7 @@ This project is the backend service powering Home Botanicals Bible, an app desig
 The backend uses Spring Boot for rapid development and Spring Data JPA for convenient database operations. It stores plant and tip data in a relational database, with features like default watering intervals and daily rotating tips to enrich the user experience.
 
 🚀 Quick Start
+
 Prerequisites
 
 Java 17+ installed
