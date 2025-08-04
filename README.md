@@ -23,25 +23,34 @@ The backend uses Spring Boot for rapid development and Spring Data JPA for conve
 
 ---
 
-## 🚀 Quick Start
+Installation
+Prerequisites
+Java 17 or newer
 
-### Prerequisites
+Maven or Gradle (for building the project)
 
-- Java 17+  
-- Maven  
-- MySQL database  
+MySQL or compatible relational database (configured in application properties)
 
-### Installation
+Steps
+Clone the repository:
 
 
 git clone https://github.com/yourusername/homebotanicalsbible-backend.git
-cd homebotanicalsbible-backend
+Configure your database settings in src/main/resources/application.properties.
+
+Build the project:
+
 
 mvn clean install
+or if using Gradle:
+
+
+./gradlew build
+Run the Spring Boot application:
+
 
 mvn spring-boot:run
 
-Configure your database connection in src/main/resources/application.properties before starting.
 
 💡 Usage Examples
 Fetch all plants:
