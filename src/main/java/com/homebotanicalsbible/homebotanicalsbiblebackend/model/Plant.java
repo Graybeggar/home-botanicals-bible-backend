@@ -1,41 +1,43 @@
 package com.homebotanicalsbible.homebotanicalsbiblebackend.model; // Package declaration
 
-import jakarta.persistence.*; // Import JPA annotations for ORM mapping
-import lombok.*; // Import Lombok annotations to reduce boilerplate
+import jakarta.persistence.*; // JPA annotations for ORM mapping
+import lombok.*; // Lombok annotations for reducing boilerplate
+import java.util.Objects; // For concise null handling
 
-@Entity // Marks this class as a JPA entity for database persistence
-@Getter // Lombok: generates getters for all fields
-@Setter // Lombok: generates setters for all fields
-@NoArgsConstructor // Lombok: generates a no-argument constructor
-@AllArgsConstructor // Lombok: generates a constructor with all fields
-public class Plant { // Entity class representing a plant
+@Entity // Marks this class as a JPA entity for persistence
+@Getter // Lombok: generates getters
+@Setter // Lombok: generates setters
+@NoArgsConstructor // Lombok: no-args constructor
+@AllArgsConstructor // Lombok: all-args constructor
+public class Plant { // Entity representing a plant
 
-    @Id // Marks 'id' as the primary key
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Auto-generates id values using identity strategy
-    private Long id; // Unique identifier for each plant
+    @Id // Primary key
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Auto-increment strategy
+    private Long id; // Unique plant ID
 
-    private String name; // Name of the plant
+    private String name; // Plant name
 
-    @Column(length = 1000) // Limits description field to 1000 characters in the database
-    private String description; // Description of the plant
+    @Column(length = 1000) // Limit description length
+    private String description; // Plant description
 
-    private String light; // Light requirements (e.g., Low, Bright)
-    private String size;  // Size category (e.g., Small, Medium, Large)
-    private Boolean petSafe; // Indicates if the plant is safe for pets
+    private String light; // Light requirement (e.g., Low, Bright)
+    private String size; // Size category (e.g., Small, Medium, Large)
+    private Boolean petSafe; // Pet safety flag
 
-    private String imageUrl; // URL to an image of the plant
+    private String imageUrl; // Image URL
 
-    @Column(length = 3000) // Limits careInstructions field to 3000 characters
-    private String careInstructions; // Detailed care instructions
+    @Column(length = 3000) // Limit care instructions length
+    private String careInstructions; // Care instructions
 
     private Integer wateringIntervalDays = 7; // Default watering interval in days
 
-    public Integer getWateringIntervalDays() { // Getter for watering interval
+    public Integer getWateringIntervalDays() {
         return wateringIntervalDays;
     }
 
-    public void setWateringIntervalDays(Integer wateringIntervalDays) { // Setter with default fallback
-        this.wateringIntervalDays = (wateringIntervalDays != null) ? wateringIntervalDays : 7;
+    public void setWateringIntervalDays(Integer wateringIntervalDays) {
+        // Fallback to 7 if null to ensure data integrity
+        this.wateringIntervalDays = Objects.requireNonNullElse(wateringIntervalDays, 7);
     }
 }
 

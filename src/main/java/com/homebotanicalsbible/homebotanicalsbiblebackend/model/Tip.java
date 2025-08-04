@@ -1,30 +1,30 @@
 package com.homebotanicalsbible.homebotanicalsbiblebackend.model; // Package declaration
 
-import jakarta.persistence.*; // Import JPA annotations for ORM mapping
+import jakarta.persistence.*; // JPA annotations for ORM mapping
 
-@Entity // Marks this class as a JPA entity for database persistence
-public class Tip { // Entity class representing a tip
+@Entity // Marks this class as a JPA entity
+public class Tip { // Entity representing a tip
 
-    @Id // Marks 'id' as the primary key
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // Auto-generates id values using identity strategy
-    private Long id; // Unique identifier for each tip
+    @Id // Primary key
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Auto-generated ID
+    private Long id; // Unique tip identifier
 
-    private String text; // The tip's text content
+    private String text; // Tip content
 
-    public Tip() {} // No-argument constructor required by JPA
+    public Tip() {} // JPA-required no-args constructor
 
-    public Tip(String text) { // Constructor for creating a tip with text only
+    public Tip(String text) { // Constructor with tip text
         this.text = text;
     }
 
-    public Tip(Long id, String text) { // Constructor for creating a tip with id and text
+    public Tip(Long id, String text) { // Constructor with id and text
         this.id = id;
         this.text = text;
     }
 
-    public Long getId() { return id; } // Getter for id
-    public String getText() { return text; } // Getter for text
-    public void setText(String text) { this.text = text; } // Setter for text
+    public Long getId() { return id; } // ID getter
+    public String getText() { return text; } // Text getter
+    public void setText(String text) { this.text = text; } // Text setter
 }
 
 // End of Tip class
