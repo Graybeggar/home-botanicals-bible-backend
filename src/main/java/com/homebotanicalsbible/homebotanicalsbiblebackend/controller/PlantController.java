@@ -4,7 +4,7 @@ import com.homebotanicalsbible.homebotanicalsbiblebackend.model.Plant; // Import
 import com.homebotanicalsbible.homebotanicalsbiblebackend.repository.PlantRepository; // Imports the Plant repository interface
 import com.homebotanicalsbible.homebotanicalsbiblebackend.service.PlantService; // Imports the Plant service class
 import org.springframework.web.bind.annotation.*; // Imports Spring Web annotations for REST controllers
-import org.springframework.http.ResponseEntity; // Imports ResponseEntity for HTTP responses
+import org.springframework.http.ResponseEntity; // Imports Response Entity for HTTP responses
 import java.util.List; // Imports List for handling collections
 
 @RestController // Marks this class as a REST controller
