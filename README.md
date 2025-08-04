@@ -36,7 +36,9 @@ The backend uses Spring Boot for rapid development and Spring Data JPA for conve
 
 git clone https://github.com/yourusername/homebotanicalsbible-backend.git
 cd homebotanicalsbible-backend
+
 mvn clean install
+
 mvn spring-boot:run
 
 Configure your database connection in src/main/resources/application.properties before starting.
