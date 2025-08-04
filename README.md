@@ -79,6 +79,7 @@ Link to Wireframe: https://lucid.app/lucidchart/c7417e79-d8f3-4be6-b534-6b647baa
 Link to ER Diagram: https://dbdiagram.io/d/68755881f413ba3508d340be
 
 🌟 Future Features
+
 ✅ User Authentication & Roles
 
 Register, login, password reset
