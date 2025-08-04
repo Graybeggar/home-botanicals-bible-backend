@@ -65,6 +65,8 @@ GET /api/plants
 - [Getting Started with Spring Boot - Baeldung](https://www.baeldung.com/spring-boot-start)
 - [Spring Boot First Application Tutorial](https://docs.spring.io/spring-boot/tutorial/first-application/index.html#getting-started.first-application)
 
+Link to Wireframe: https://lucid.app/lucidchart/c7417e79-d8f3-4be6-b534-6b647baab445/edit?page=uP1BopAARZY8&invitationId=inv_f13fc2ec-2e86-42bd-80c3-5af43ed6b8d9#
+
 Link to ER Diagram: https://dbdiagram.io/d/68755881f413ba3508d340be
 
 Get today's gardening tip:
