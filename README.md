@@ -47,24 +47,6 @@ Configure your database connection in src/main/resources/application.properties 
 Fetch all plants:
 GET /api/plants
 
-Get today's gardening tip:
-GET /tip-of-the-day
-
-Add new plants (JSON body):
-```json
-[
-  {
-    "name": "Aloe Vera",
-    "description": "Succulent known for medicinal uses.",
-    "light": "Bright",
-    "size": "Medium",
-    "petSafe": true,
-    "wateringIntervalDays": 3,
-    "careInstructions": "Water every 3 days, indirect sunlight."
-  }
-]
-'''
----
 ## Useful Resources
 
 - [Building a RESTful Web Service - Spring Guide](https://spring.io/guides/gs/rest-service/)
@@ -82,3 +64,20 @@ Add new plants (JSON body):
 - [Spring Data JPA Query Methods - Baeldung](https://www.baeldung.com/spring-data-jpa-query)
 - [Getting Started with Spring Boot - Baeldung](https://www.baeldung.com/spring-boot-start)
 - [Spring Boot First Application Tutorial](https://docs.spring.io/spring-boot/tutorial/first-application/index.html#getting-started.first-application)
+
+Get today's gardening tip:
+GET /tip-of-the-day
+
+Add new plants (JSON body):
+```json
+[
+  {
+    "name": "Aloe Vera",
+    "description": "Succulent known for medicinal uses.",
+    "light": "Bright",
+    "size": "Medium",
+    "petSafe": true,
+    "wateringIntervalDays": 3,
+    "careInstructions": "Water every 3 days, indirect sunlight."
+  }
+]
