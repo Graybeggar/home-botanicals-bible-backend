@@ -23,7 +23,7 @@ The backend uses Spring Boot for rapid development and Spring Data JPA for conve
 
 ---
 
-Installation
+## Installation
 Prerequisites
 Java 17 or newer
 
@@ -56,6 +56,8 @@ mvn spring-boot:run
 Fetch all plants:
 GET /api/plants
 
+---
+
 ## Useful Resources
 
 - [Building a RESTful Web Service - Spring Guide](https://spring.io/guides/gs/rest-service/)
@@ -74,11 +76,15 @@ GET /api/plants
 - [Getting Started with Spring Boot - Baeldung](https://www.baeldung.com/spring-boot-start)
 - [Spring Boot First Application Tutorial](https://docs.spring.io/spring-boot/tutorial/first-application/index.html#getting-started.first-application)
 
-Link to Wireframe: https://lucid.app/lucidchart/c7417e79-d8f3-4be6-b534-6b647baab445/edit?page=uP1BopAARZY8&invitationId=inv_f13fc2ec-2e86-42bd-80c3-5af43ed6b8d9#
+---
+
+## Link to Wireframe: https://lucid.app/lucidchart/c7417e79-d8f3-4be6-b534-6b647baab445/edit?page=uP1BopAARZY8&invitationId=inv_f13fc2ec-2e86-42bd-80c3-5af43ed6b8d9#
 
 Link to ER Diagram: https://dbdiagram.io/d/68755881f413ba3508d340be
 
-🌟 Future Features
+---
+
+## 🌟 Future Features
 
 ✅ User Authentication & Roles
 
@@ -110,9 +116,9 @@ Let users favorite or bookmark plants
 
 Option to track watering frequency with notifications
 
+---
 
-
-Get today's gardening tip:
+## Get today's gardening tip:
 GET /tip-of-the-day
 
 Add new plants (JSON body):
