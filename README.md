@@ -46,6 +46,7 @@ Fetch all plants:
 GET /api/plants
 
 Add new plants (JSON body):
+```json
 [
   {
     "name": "Aloe Vera",
