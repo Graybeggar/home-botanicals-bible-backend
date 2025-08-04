@@ -63,7 +63,7 @@ Add new plants (JSON body):
     "careInstructions": "Water every 3 days, indirect sunlight."
   }
 ]
-
+'''
 ---
 ## Useful Resources
 
