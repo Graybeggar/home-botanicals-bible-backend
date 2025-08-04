@@ -26,7 +26,9 @@ Clone the repo and run:
 
 git clone https://github.com/yourusername/homebotanicalsbible-backend.git
 cd homebotanicalsbible-backend
+
 mvn clean install
+
 mvn spring-boot:run
 
 Configure your database connection in src/main/resources/application.properties before starting.
